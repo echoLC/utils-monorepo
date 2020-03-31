@@ -1,0 +1,33 @@
+{
+  "name": "@lc/assign",
+  "version": "0.0.1",
+  "description": "a pollify for Object.assign",
+  "keywords": [
+    "assign",
+    "Object"
+  ],
+  "author": "luochao <luochao@yy.com>",
+  "homepage": "https://github.com/echoLC/utils-monorepo#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echoLC/utils-monorepo.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/echoLC/utils-monorepo/issues"
+  }
+}
