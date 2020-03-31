@@ -1,5 +1,5 @@
 {
-  "name": "@lc/assign",
+  "name": "lc-assign",
   "version": "0.1.5",
   "description": "a pollify for Object.assign",
   "keywords": [
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/echoLC/utils-monorepo/issues"
   },
-  "gitHead": "ead6bb96772452bbf102e554a21cc32c24ecd902"
+  "gitHead": "ae1df64ea78b395b45b3d192bfafba236b3f2fef"
 }
