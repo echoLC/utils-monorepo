@@ -1,5 +1,5 @@
 {
-  "name": "lc-assign",
+  "name": "@echolc/assign",
   "version": "0.1.6",
   "description": "a pollify for Object.assign",
   "keywords": [
