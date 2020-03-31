@@ -3,11 +3,13 @@
     "packages/*"
   ],
   "version": "independent",
-  "publish": {
-    "conventionalCommits": true,
-    "access": "public",
-    "npmClient": "yarn",
-    "allowBranch": ["master"],
-    "message": "release: publish"
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "access": "public",
+      "npmClient": "yarn",
+      "allowBranch": ["master"],
+      "message": "release: publish"
+    }
   }
 }
