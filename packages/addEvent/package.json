@@ -1,5 +1,5 @@
 {
-  "name": "addevent",
+  "name": "lc-addevent",
   "version": "0.1.0",
   "description": "a event polyfill",
   "keywords": [
@@ -29,5 +29,6 @@
   },
   "bugs": {
     "url": "https://github.com/echoLC/utils-monorepo/issues"
-  }
+  },
+  "gitHead": "e34b0001b5a9bf7d4351423645dc1b41830bd7f6"
 }
