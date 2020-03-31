@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/echoLC/utils-monorepo/compare/lc-assign@0.1.7...lc-assign@0.1.8) (2020-03-31)
+
+
+### Bug Fixes
+
+* modify package name ([6fd9cbc](https://github.com/echoLC/utils-monorepo/commit/6fd9cbcd6af441b7c1618d88e6e2a8965842de2e))
+
+
+
+
+
 ## [0.1.7](https://github.com/echoLC/utils-monorepo/compare/lc-assign@0.1.6...lc-assign@0.1.7) (2020-03-31)
 
 
