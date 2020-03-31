@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/echoLC/utils-monorepo/compare/lc-addevent@0.2.0...lc-addevent@0.2.1) (2020-03-31)
+
+
+### Bug Fixes
+
+* update addevent package ([3000c6c](https://github.com/echoLC/utils-monorepo/commit/3000c6c1dbd8b3421ebc68e5d1bd3a7d286900e7))
+
+
+
+
+
 # 0.2.0 (2020-03-31)
 
 
