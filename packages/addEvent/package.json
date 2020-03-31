@@ -1,0 +1,33 @@
+{
+  "name": "addevent",
+  "version": "0.0.1",
+  "description": "a event polyfill",
+  "keywords": [
+    "ie",
+    "event"
+  ],
+  "author": "luochao <luochao@yy.com>",
+  "homepage": "https://github.com/echoLC/utils-monorepo#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echoLC/utils-monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/echoLC/utils-monorepo/issues"
+  }
+}
