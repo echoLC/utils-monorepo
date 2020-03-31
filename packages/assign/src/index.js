@@ -5,8 +5,7 @@
  * @param {Object} objB
  * @returns new object
  */
-export default function assign (target, varArgs) { // .length of function is 2
-  'use strict'
+export default function assign (target, varArgs) {
   if (target == null) { // TypeError if undefined or null
     throw new TypeError('Cannot convert undefined or null to object')
   }
