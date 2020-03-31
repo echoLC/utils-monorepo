@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/echoLC/utils-monorepo/compare/lc-assign@0.1.6...lc-assign@0.1.7) (2020-03-31)
+
+
+### Bug Fixes
+
+* 修改包名 ([48615a5](https://github.com/echoLC/utils-monorepo/commit/48615a5926a2e5643d84a7fabd346fd52e4e31da))
+* 修改报名 ([c039f00](https://github.com/echoLC/utils-monorepo/commit/c039f0029d58ec858784163d483b826c925a5cd0))
+
+
+
+
+
 ## 0.1.7 (2020-03-31)
 
 
