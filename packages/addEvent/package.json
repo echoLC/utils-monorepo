@@ -1,6 +1,6 @@
 {
   "name": "lc-addevent",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "a event polyfill",
   "keywords": [
     "ie",
@@ -32,6 +32,6 @@
   },
   "gitHead": "e34b0001b5a9bf7d4351423645dc1b41830bd7f6",
   "dependencies": {
-    "lc-assign": "^0.1.8"
+    "lc-assign": "^0.1.9"
   }
 }
