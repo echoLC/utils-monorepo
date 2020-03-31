@@ -32,6 +32,5 @@
   },
   "gitHead": "e34b0001b5a9bf7d4351423645dc1b41830bd7f6",
   "dependencies": {
-    "lc-assign": "^0.1.9"
   }
 }
