@@ -32,5 +32,6 @@
   },
   "gitHead": "e34b0001b5a9bf7d4351423645dc1b41830bd7f6",
   "dependencies": {
+    "request-promise": "^4.2.5"
   }
 }

@@ -8,9 +8,10 @@
       "conventionalCommits": true,
       "registry": "https://registry.npmjs.org",
       "access": "public",
-      "npmClient": "yarn",
       "allowBranch": ["master"],
       "message": "release: publish"
     }
-  }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
