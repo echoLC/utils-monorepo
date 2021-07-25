@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@1.6.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "echoLC/utils-monorepo" }
+  ],
+  "commit": false,
+  "linked": [["lc-addevent"], ["lc-assign"]],
+  "access": "public",
+  "baseBranch": "master",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}
