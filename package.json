@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "release:version": "cross-env GITHUB_TOKEN=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 yarn changesets version"
+    "release:version": "cross-env GITHUB_TOKEN=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 yarn changeset version"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
