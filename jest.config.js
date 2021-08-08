@@ -4,13 +4,9 @@ module.exports = {
   roots: ['<rootDir>packages'],
   testMatch: ['**/*.spec.js'],
   collectCoverage: true,
-  coverageReporters: [
-    'json-summary',
-    'text',
-    'text-summary',
-    'html'
-  ],
+  coverageReporters: ['json-summary', 'text', 'text-summary', 'html'],
   transform: {
-    '^.+\\.(js)$': 'babel-jest'
-  }
+    '^.+\\.jsx?$': 'babel-jest'
+  },
+  transformIgnorePatterns: ['node_modules/(?!(lodash-es)/)']
 }

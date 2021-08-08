@@ -1,7 +1,13 @@
-import addEvent from '../src'
+import addEvent from "../src";
 
-describe('addEvent', () => {
-  it('should add event', () => {
-    expect(1).toBe(1)
-  })
-})
+describe("addEvent", () => {
+  it("should add event", () => {
+    const fn = jest.fn();
+    const obj = {
+      addEventListener: fn
+    };
+
+    addEvent(obj, "test", () => {});
+    expect(fn).toHaveBeenCalled();
+  });
+});

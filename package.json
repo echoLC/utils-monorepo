@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "jest --debug",
     "release:version": "cross-env GITHUB_TOKEN=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 yarn changeset version"
   },
   "devDependencies": {
@@ -30,6 +30,7 @@
     "jest": "^25.2.4",
     "lerna": "^3.20.2",
     "lint-staged": "^8.1.7",
+    "lodash-es": "^4.17.21",
     "regenerator-runtime": "^0.13.5"
   },
   "husky": {
