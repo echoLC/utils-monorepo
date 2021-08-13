@@ -7,7 +7,7 @@ import has from 'lodash-es/has'
  * @param {*} fn
  * @param {*} useCapture
  */
-export default function addEvent (obj, type, fn, useCapture = false) {
+export default function addEvent (obj, type, fn, useCapture) {
   // @credit http://stackoverflow.com/questions/2657182/correct-usage-of-addeventlistener-attachevent
   if (has(obj, 'addEventListener')) {
     obj.addEventListener(type, fn, !!useCapture)
