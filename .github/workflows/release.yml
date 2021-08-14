@@ -23,15 +23,6 @@ jobs:
           node-version: 12.x
           registry-url: https://registry.npmjs.org
 
-      - name: Install dependencies
-        run: yarn run bootstrap
-
-      - name: Unit test
-        run: yarn run test
-
-      - name: Prepare release
-        run: yarn prerelease
-
       - name: Publish npm
         run: yarn run release:publish
         env:
