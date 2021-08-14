@@ -6,8 +6,8 @@
   ],
   "scripts": {
     "test": "jest --debug",
-    "release:version": "cross-env lerna version",
-    "release:publish": "cross-env lerna publish from-git"
+    "release:version": "lerna version",
+    "release:publish": "lerna publish from-git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
