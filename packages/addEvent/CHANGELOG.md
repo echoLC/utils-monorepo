@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/echoLC/utils-monorepo/compare/lc-addevent@0.2.5...lc-addevent@0.2.6) (2021-08-14)
+
+
+### Bug Fixes
+
+* useCapture 添加默认参数 ([e421cce](https://github.com/echoLC/utils-monorepo/commit/e421cce74db1b2fea3688450ab3aa96023819a11))
+
+
+
+
+
 ## [0.2.5](https://github.com/echoLC/utils-monorepo/compare/lc-addevent@0.2.4...lc-addevent@0.2.5) (2021-08-14)
 
 
