@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/echoLC/utils-monorepo/compare/lc-addevent@0.2.3...lc-addevent@0.2.4) (2021-08-14)
+
+
+### Bug Fixes
+
+* 添加参数默认值 ([70b30be](https://github.com/echoLC/utils-monorepo/commit/70b30bed7992c70a7e93572ccb64d68443f9a3c2))
+* 添加参数默认值 ([d4e21c6](https://github.com/echoLC/utils-monorepo/commit/d4e21c6079efcee21a78772793ed3f656e0a0e5e))
+* 完善了 jest 配置 ([082d887](https://github.com/echoLC/utils-monorepo/commit/082d88769d93a47f9ad861e6986491caf99b35b3))
+* useCapture 添加了默认参数 ([e1debde](https://github.com/echoLC/utils-monorepo/commit/e1debde00f040404485859ebd3ba5037fc91440d))
+
+
+
+
+
 ## [0.2.3](https://github.com/echoLC/utils-monorepo/compare/lc-addevent@0.2.2...lc-addevent@0.2.3) (2021-07-25)
 
 
