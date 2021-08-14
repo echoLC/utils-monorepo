@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --debug",
     "release:version": "lerna version",
-    "release:publish": "lerna publish from-git",
+    "release:publish": "lerna publish from-git --yes",
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
