@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - '*'
+      - "**"
 
 jobs:
   release:
@@ -27,10 +27,14 @@ jobs:
         run: yarn run bootstrap
 
       - name: Unit test
-        run: yarn run test 
+        run: yarn run test
 
       - name: Prepare release
         run: yarn prerelease
 
       - name: Publish npm
         run: yarn run release:publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          token: ${{secrets.NPM_TOKEN}}

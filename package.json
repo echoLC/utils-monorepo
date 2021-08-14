@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "test": "jest --debug",
-    "release:version": "cross-env GITHUB_TOKEN=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 yarn changeset version"
+    "release:version": "cross-env lerna version",
+    "release:publish": "cross-env lerna publish from-git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
