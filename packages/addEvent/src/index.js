@@ -1,4 +1,6 @@
 import has from 'lodash-es/has'
+import { createEditor } from '@wangeditor/editor'
+
 /**
  * @description 添加事件 pollyfill
  * @export
@@ -19,4 +21,10 @@ export default function addEvent (obj, type, fn, useCapture = false) {
     }
     obj.attachEvent('on' + type, obj[type + fn])
   }
+}
+
+export function createWangEditor (selector) {
+  return createEditor({
+    selector
+  })
 }

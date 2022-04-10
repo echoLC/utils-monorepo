@@ -1,6 +1,6 @@
 module.exports = {
   verbose: true,
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   roots: ['<rootDir>packages'],
   testMatch: ['**/*.spec.js'],
   collectCoverage: true,
