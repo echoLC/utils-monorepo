@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "test": "jest --debug",
-    "release:version": "lerna version --conventinal-commits -no-change-log",
+    "release:version": "lerna version --conventional-commits -no-change-log",
     "release:publish": "lerna publish from-git --yes",
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
